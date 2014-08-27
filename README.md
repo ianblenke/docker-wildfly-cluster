@@ -4,7 +4,7 @@ This is an example Dockerfile that deploys an Wildfly cluster using JGroups Goss
 
 This image is built on the [jboss/wildfly](https://registry.hub.docker.com/u/jboss/wildfly/) docker image.
 
-This image is meant to be used with [jboss/wildfly](https://registry.hub.docker.com/u/ianblenke/docker-jboss-gossiprouter/) docker image, more specifically: this should be deployed with the [maestro-ng](https://github.com/signalfuse/maestro-ng) docker orchestration tool.
+This image is meant to be used with [ianblenke/docker-jboss-gossiprouter](https://registry.hub.docker.com/u/ianblenke/docker-jboss-gossiprouter/) docker image. More specifically: this should be deployed with the [maestro-ng](https://github.com/signalfuse/maestro-ng) docker orchestration tool.
 
 This could easily be adapted to use any of the other [JBoss dockerfiles](https://github.com/jboss/dockerfiles/), there is nothing here inherently unique to Wildfly.
 
