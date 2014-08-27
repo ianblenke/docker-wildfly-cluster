@@ -1,8 +1,8 @@
-FROM jboss/wildfly
+FROM ianblenke/wildfly
 MAINTAINER ian@blenke.com
 
 # Expose the ports we're interested in
-EXPOSE 8080 
+EXPOSE 8080
 
 # This cluster is orchestrated using maestro-ng
 USER root
